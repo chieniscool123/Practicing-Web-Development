@@ -1,0 +1,20 @@
+p + div {
+    color: red;
+}
+
+.children1 {
+ color: red;
+}
+
+#parent {
+    color: blue;
+}
+
+.warning {
+    color : yellow;
+}
+.alert {
+    color : red;
+
+}
+

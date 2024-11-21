@@ -1,0 +1,88 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+*
+{
+margin:0 ;
+padding:0;
+}
+
+.web-contents{
+  display:flex;
+  flex-wrap: wrap;
+
+}
+
+#blue-row-header {
+  background-color:blue;
+  display: block;
+  height: 10px;
+  width:100%;
+  font-size: 10px;
+ }
+
+ 
+.top-container{
+  display: flex;
+ 
+font-size: 3cap;
+}
+
+.top-row{
+width: 25%;
+height:100px;
+
+}
+
+#left-social{
+
+  background-color: green;
+
+}
+
+#right-donate{
+  background-color : purple;
+}
+
+#middle-search{
+  background-color: red;
+  width: 50%;
+font-size: 20px;
+}
+
+.name-container{
+background-color: grey;
+width :100%;
+flex-direction: vertical;
+}
+ /*
+#ballot {
+  color: blue;
+ 
+}
+#pedia {
+  color: orange;
+}
+*/
+.search-container{
+ background-color: pink;
+ width: 100%;
+ margin-top:auto;
+ 
+}
+
+.site-navigation-container{
+background-color: blue;
+display:flex;
+width:25%;
+height: 100vh;
+}
+
+.main-contents{
+  background-color: red;
+display:flex;
+width:25%;
+height: 100vh;
+}
