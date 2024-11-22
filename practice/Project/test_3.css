@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    border : 1px solid red; 
+}
+
+
+body{
+    font-family: "Open Sans", sans-serif;
+
+}
+
+header{
+    height: 100px;
+    
+    display:flex;
+    justify-content: space-around;
+    align-items: center; /* veritcal */
+    }
+    
+    nav {
+        display: flex;
+        width: 80%;
+    }
+
+
+    ul.word{
+        display:flex;
+        list-style-type: none; 
+        align-items: center;
+    }
+    
+    ul.word li a{
+        padding: 0 20px; /* top and bottom / right and left */
+        text-decoration: none;
+        color : #3a3a3a;
+        display: flex;
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing : 0;
+    }
+
+    ul.social {
+        display: flex;               /* Make the ul a flex container */
+        justify-content: flex-end;   /* Align all li items to the right */
+        list-style-type: none; 
+        margin: 0 80px;   /* Remove bullets from the list */
+    }
+    
+    ul.social img {
+        width: 30px;                 /* Size of your logo */
+        height: auto;                /* Maintain aspect ratio */
+    }
