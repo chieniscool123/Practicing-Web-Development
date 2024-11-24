@@ -52,3 +52,20 @@ header{
         width: 30px;                 /* Size of your logo */
         height: auto;                /* Maintain aspect ratio */
     }
+
+
+   .content-container{
+    display: flex;
+    justify-content: center;
+   }
+
+   .id-search{
+    border-radius: .25rem;
+    width: 480px;
+    background: blue;
+    padding: 6px 14px;
+    border-color: blue;
+    border-bottom-width: 2px;
+    margin: 40px;
+    
+   }
