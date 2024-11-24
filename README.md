@@ -5,8 +5,10 @@
 
 #### 11/21/2024 
 
-Created the repository
+Created the repository for studying HTML and CSS 
 
-#### 11/22/2024 
+#### 11/24/2024
 
-Work on TFT STAT Page
+Create the respoitory for learning JavaScript
+
+
