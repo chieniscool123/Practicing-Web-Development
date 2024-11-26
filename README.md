@@ -11,4 +11,7 @@ Created the repository for studying HTML and CSS
 
 Create the respoitory for learning JavaScript
 
+#### 11/26/2024
+
+Completed my first webpage for the Odin Project using flex-box
 
