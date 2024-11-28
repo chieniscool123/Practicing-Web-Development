@@ -1,0 +1,29 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    border : 1px solid red; 
+    
+}
+
+
+.header p{
+    display: flex;
+    background: white;
+   font-size: 50px ; 
+ color: rgb(21, 180, 233);
+font-weight: 1000;
+}
+
+.dark-blue{
+    display: flex;
+    font: Roboto; 
+    background-color: #1F2937;
+}
+
+.dark-blue .main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
