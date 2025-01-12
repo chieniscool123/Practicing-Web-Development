@@ -15,3 +15,6 @@ Create the respoitory for learning JavaScript
 
 Completed my first webpage for the Odin Project using flex-box
 
+#### 1/1/2025 
+
+Getting started w/ intermediate CSS and HTML concepts. Starting with Emmet
