@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 500px;
+    margin: 0 auto;
+}
+
+p {
+    background: aqua;
+    border: 3px solid blue;
+    padding: 10px;
+    margin: 10px;
+}
+
+span {
+    background: red;
+    border: 1px solid black;
+}
+
+.positioned {
+    /*  inspect this things to see what I am talking about  */
+    position: absolute;
+    background: yellow;
+    /* 30px away from the top */
+    top: 30px;
+    /* 30px away from the left */
+    left: 30px;
+    /* 30px away from the right */
+    right: 30px;
+}

@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: red;
+    color: white;
+}
+
+#one {
+    /* keep the box in place as you scrol. Always 20px away from the top and 10px away from the left based on the viewport */
+    position: fixed;
+    top: 20px;
+    left: 10px;
+    background: blue;
+}
+
+.outer {
+    width: 500px;
+    height: 300px;
+    overflow: scroll;
+    /* When you apply overflow: scroll;,
+     the content inside the element that exceeds the container's size will cause scrollbars to appear 
+     (either horizontally, vertically, or both) to allow the user to scroll through the overflowing content. */
+    padding-left: 150px;
+}

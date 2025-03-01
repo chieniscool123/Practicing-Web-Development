@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    /* padding and border are included in the width and height of the element. */
+}
+
+.box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: red;
+    color: white;
+}
+
+#two {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background: blue;
+}
