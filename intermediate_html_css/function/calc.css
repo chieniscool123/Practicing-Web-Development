@@ -1,6 +1,7 @@
 :root {
     --header: 3rem;
     --footer: 40px;
+    /* cal is being used to convert all these units */
     --main: calc(100vh - calc(var(--header) + var(--footer)));
 }
 

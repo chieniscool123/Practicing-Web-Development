@@ -4,6 +4,7 @@
 
 # Normal Flow 
 #### 1. element is positioned based on the default rules of the web page layout, which follow a top-to-bottom, left-to-right order.
+
 # Static Position
 #### 1. The default position. No need to specify it
 #### 2. It ignores any position-related properties like top, left, right, and bottom.
