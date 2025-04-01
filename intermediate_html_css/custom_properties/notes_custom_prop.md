@@ -80,3 +80,28 @@
 # Inheritance control
 ## Syntax
 #### The @property at-rule lets you explicitly state whether the property inherits or not.
+#### The syntax: "<color>"; part defines what type of value the custom property (--box-color in your case) can accept. It will ignore anything that is not a color 
+### You can also use initial-value as a fall back value for @property
+
+
+
+``` css @property example
+
+@property --box-color {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: cornflowerblue;
+}
+
+.parent {
+    --box-color: green;  /* valid color */
+    background-color: var(--box-color);
+}
+
+.child {
+    width: 80%;
+    height: 40%;
+    background-color: var(--box-color);  /* inherits the value of --box-color from .parent */
+}
+
+

@@ -1,0 +1,1 @@
+# You can install something called Chrome. You can install something called Firefox. Those aren’t different web browsers. Under the hood they’re using Safari’s rendering engine. They have to. The app store doesn’t allow other browsers to be listed. The apps called Chrome and Firefox are little more than skinned versions of Safari.
